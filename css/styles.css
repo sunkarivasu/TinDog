@@ -1,0 +1,207 @@
+body
+{
+    font-family: 'Montserat',sans-serif;
+    text-align: center;
+}
+#title
+{
+    background-color: #ff4c68;
+    padding:5% 13%;
+
+}
+.iphone-image
+{
+    width:50%;
+}
+
+.btn-download
+{
+    margin:5% 0%;
+}
+
+.title-heading
+{
+    font-family: 'Montserrat-Black';
+    font-weight: bold;  
+    line-height: 150%;
+    color:azure;
+
+}
+
+.btn-d
+{
+    margin:5px;
+}
+
+.navbar
+{
+    padding-bottom:8%;
+}
+
+.navbar-brand
+{
+    font-size: 2em;
+    font-family: 'Montserat',sans-serif;
+}
+
+.nav-item
+{
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.iphone-image
+{
+    transform: rotate(30deg);
+    position:absolute;
+}
+
+#section2
+{
+    display:block-inline;
+    background-color: white;
+    padding:70px;
+    margin-bottom: 0px;
+    text-align: center;
+    position:relative;
+    z-index: 1;
+    
+}
+
+.feature
+{
+    line-height: 1.5em;
+    font-family: 'Montserrat-bold',sans-serif;
+    font-weight: bold;
+    margin:auto;
+
+}
+
+.feature-desc
+{
+    color:#8f8f8f;
+}
+
+.feature-icon
+{
+    font-size:3em;
+    color:#ef8172;
+    margin: auto;
+}
+
+
+.feature-icon:hover
+{
+    color:#ff4c68;
+}
+
+#testimonial-section
+{
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff;
+    font-weight:bolder;
+    line-height: 150%;
+}
+
+.carousel-item
+{
+    padding:5% 25%;
+}
+
+.dog-image
+{
+    margin:20px 0px;
+    width:100px;
+    border-radius: 50%;
+}
+
+.section4-image
+{
+    width: 100%;
+    height: auto;
+    padding:5% 10%;
+    margin: auto ;
+    text-align: center;
+}
+
+#section4
+{
+    background-color: #ef8172;
+    padding:0% 10% 5% 10%;
+}
+
+#card-section
+{
+    padding:5% 15% 5% 15%;
+
+}
+
+.tit
+{
+    margin-bottom:5%;
+}
+
+
+.container
+{
+    padding:5% 10%;
+}
+
+
+#bottom-section
+{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5%;
+    padding-bottom: 3%;
+    line-height: 4em;
+    font-family: "Montserrat-black",sans-serif;
+    font-weight: bolder;
+    color:#fff;
+}
+
+.copyrights-images
+{
+    padding-bottom: 2%;
+}
+
+
+#copyrights-section
+{
+    text-align: center;
+    padding:5%;
+}
+
+.copyright-icon
+{
+    margin: 2px;
+}
+
+
+@media (max-width:760px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .iphone-image
+    {
+        transform: rotate(0);
+        position: static;
+    }
+    .title-heading
+    {
+        text-align: center;
+    }
+
+    .section4-image
+    {
+        width:50%;
+    }
+
+    #section4
+    {
+        text-align: center;
+    }
+}
